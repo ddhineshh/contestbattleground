@@ -17,7 +17,7 @@ async function getData(){
         <td>${res[i].url}</td>
         <td>${res[i].start_time}</td>
         <td>${res[i].end_time}</td>
-        <td>${(res[i].duration)/60}</td>
+        <td>${res[i].duration/60}</td>
         </tr>
         `;
     }
