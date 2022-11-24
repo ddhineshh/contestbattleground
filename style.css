@@ -1,0 +1,35 @@
+span{
+    color:rgb(52, 43, 226);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 5%;
+    border: 6px dotted rgb(205, 122, 50);
+    padding: 5px;
+    font-size: xx-large;
+    display: table;
+    margin: 0 auto;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+
+body{
+    background:radial-gradient(rgb(190, 204, 85),rgb(250, 251, 251))
+}
+
+#battle{
+    font-size:x-large;
+    text-align: center;
+    margin: 4px;
+}
+
+#number{
+    margin: 8px;
+    font-size: large;
+    background-color: blanchedalmond;
+}
+
+#button{
+    margin: 8px;
+    font-size: large;
+    background-color: rgb(111, 216, 242);
+    border-radius: 5px;
+}

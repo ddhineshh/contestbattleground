@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Facts</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <div class="container-fluid">
+
+        <span>Want to be king in prgramming</span>
+
+        <div>
+            <label for="site" id="battle"> Select your battle ground </label>
+            <select name="site" id="number">
+                <option value="all" selected>All</option>
+                <option value="leet_code">Leet Code</option>
+                <option value="codeforces">Codeforces</option>
+                <option value="codeforces_gym">CodeForces::Gym</option>
+                <option value="top_coder">TopCoder</option>
+                <option value="at_coder">AtCoder</option>
+                <option value="cs_academy">CS Academy</option>
+                <option value="code_chef">CodeChef</option>
+                <option value="hacker_rank">HackerRank</option>
+                <option value="hacker_earth">HackerEarth</option>
+                <option value="kick_start">Kick Start</option>
+                <option value="toph">Toph</option>
+            </select>
+            <button type="submit" id="button" onclick="getData()">Submit</button>
+        </div>
+        <div id="listing-table">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">Name</th>
+                        <th scope="col">URL</th>
+                        <th scope="col">Start time (UTC)</th>
+                        <th scope="col">End time (UTC)</th>
+                        <th scope="col">Duration (in seconds)</th>
+                    </tr>
+                </thead>
+                <tbody id="table-data">
+                </tbody>
+            </table>
+        </div>
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <script src="./script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
